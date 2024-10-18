@@ -11,6 +11,7 @@ function submitFeedback() {
     const designation = document.getElementById('designation').value;
     const productType = document.getElementById('productType').value;
     const feedback = document.getElementById('feedbackText').value;
+    const userExperience = document.getElementById('experienceText').value;
 
     document.getElementById('userName').innerHTML = username;
     document.getElementById('userAge').innerHTML = age;
@@ -19,6 +20,7 @@ function submitFeedback() {
     document.getElementById('userDesignation').innerHTML = designation;
     document.getElementById('userProductChoice').innerHTML = productType;
     document.getElementById('userFeedback').innerHTML = feedback;
+    document.getElementById('userExperience').innerHTML = userExperience;
 
     document.getElementById('userInfo').style.display = 'block';
     
